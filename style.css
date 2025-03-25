@@ -1,0 +1,44 @@
+.logo{
+    width: 150px;
+    /* margin-top: 13px; */
+    
+}
+
+.time{
+    display: flex;
+    gap: 30px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+}
+
+.box{
+    display: flex;
+    /* justify-content: space-etween; */
+    background-color: blanchedalmond;
+}
+
+.u7{
+    margin: 15px;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+.u8{
+    margin: 15px;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+}
+
+.ay{
+    justify-content: space-around;
+}

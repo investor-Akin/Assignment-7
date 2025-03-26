@@ -1,44 +1,259 @@
-.logo{
-    width: 150px;
-    /* margin-top: 13px; */
-    
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.time{
-    display: flex;
-    gap: 30px;
-    height: 30px;
-    margin-top: 25px;
+.master{
+    background-color:rgb(242,247,248);
+}
+nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav li{
+    display: inline;
+    color: rgb(61,79,96);
 }
 
-a{
-    margin-top: 10px;
-    text-decoration: none;
-    color: black;
-    /* font-weight: bold; */
+nav img{
+    margin-left: 200px;
 }
 
-.box{
-    display: flex;
-    /* justify-content: space-etween; */
-    background-color: blanchedalmond;
+.omg{
+    padding-left: 50px;
 }
 
-.u7{
-    margin: 15px;
-    margin-top: 25px;
-    border-radius: 15px;
-    padding: 6px;
+.omgg{
+    padding-left: 30px;
 }
 
-.u8{
-    margin: 15px;
+.mg{
+    padding-left: 15px;
+}
+nav button{
+    display: inline-block;
+}
+
+.gg{
+    padding-left: 150px;
+}
+
+.but{
+    padding: 14px 20px;
     border-radius: 10px;
-    padding: 6px;
-    background-color: black;
+    background-color: rgb(242,247,248);
+}
+
+.bu{
+    padding: 14px 20px;
+    border: none;
+    background-color:  rgb(18,34,49);
+    color: white;
+    border-radius: 10px;
+}
+
+.pa{
+    color: rgb(18,34,49);
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 70px;
+}
+
+.para{
+    color:rgb(18,34,49);
+    font-size: 18px;
+}
+
+.card-parent{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.card{
+    box-sizing: border-box;
+    height: 350px;
+    width: 360px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.boot{
+    color: rgb(0,51,153);
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.boots{
+    color:rgb(61,79,96);
+}
+
+.Piggy{
+    color: rgb(0,51,153);
+}
+
+.bot{
+    color:rgb(50,150,255);
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.cards{
+    box-sizing: border-box;
+    height: 350px;
+    width: 360px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.Pig{
+    color:rgb(50,150,255);
+}
+
+.card:hover{
+    background-color: blue;
+}
+
+.card:hover * {
     color: white;
 }
 
-.ay{
-    justify-content: space-around;
+.cards:hover{
+    background-color: rgb(83,171,255);
+}
+
+.cards:hover *{
+    color: white;
+}
+
+.goal{
+    color:rgb(6,155,64);
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.child{
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.first{
+    box-sizing: border-box;
+    height: 350px;
+    width: 360px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.tag{
+    color:rgb(6,155,64);
+}
+
+.first:hover{
+    background-color:rgb(6,155,64);
+}
+
+.first:hover *{
+    color: white;
+}
+
+.flex{
+    color:rgb(229,40,142);
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.second{
+    box-sizing: border-box;
+    height: 350px;
+    width: 360px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.safe{
+    color:rgb(229,40,142);
+}
+
+.second:hover{
+    background-color:rgb(229,40,142) ;
+}
+
+.second:hover *{
+    color: white;
+}
+
+.pikin{
+    display: flex;
+    margin-top: 25px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.third{
+    box-sizing: border-box;
+    height: 350px;
+    width: 360px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.dols{
+    color:black;
+}
+
+.third:hover{
+    background-color:black;
+}
+
+.third:hover *{
+    color: white;
+}
+
+.dollar{
+    color:black;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.fourth{
+    box-sizing: border-box;
+    height: 350px;
+    width: 360px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.house{
+    color:rgb(255,120,60);
+}
+
+.money{
+    color:rgb(255,120,60);
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.fourth:hover{
+    background-color:rgb(255,120,60);
+}
+
+.fourth:hover *{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
